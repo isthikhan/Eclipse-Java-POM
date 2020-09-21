@@ -21,13 +21,8 @@ public class Loginpage {
 		LoginObject.UserName.sendKeys("mohammedirshadkhan@gmail.com");
 		LoginObject.Password.sendKeys("Test@123");
 		LoginObject.Submit.click();
+	driver.quit();
 				
 				
-				
-				
-		/*LoginObject.UserName(driver).sendKeys("mohammedirshadkhan@gmail.com");
-		LoginObject.Password(driver).sendKeys("Test@123");
-		LoginObject.Submit(driver).click();*/
-
 	}
 }

@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="29817" started-at="2020-09-21T22:28:55 IST" finished-at="2020-09-21T22:29:24 IST">
+  <suite name="Default suite" duration-ms="34862" started-at="2020-09-22T00:15:15 IST" finished-at="2020-09-22T00:15:50 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="29817" started-at="2020-09-21T22:28:55 IST" finished-at="2020-09-21T22:29:24 IST">
-      <class name="Testcases.Loginpage">
-        <test-method status="PASS" signature="login()[pri:0, instance:Testcases.Loginpage@1d16f93d]" name="login" duration-ms="29755" started-at="2020-09-21T22:28:55 IST" finished-at="2020-09-21T22:29:24 IST">
+    <test name="Default test" duration-ms="34862" started-at="2020-09-22T00:15:15 IST" finished-at="2020-09-22T00:15:50 IST">
+      <class name="Testcases.StandaradChecking">
+        <test-method status="PASS" signature="StandardCheckingCreation()[pri:0, instance:Testcases.StandaradChecking@1d16f93d]" name="StandardCheckingCreation" duration-ms="34795" started-at="2020-09-22T00:15:16 IST" finished-at="2020-09-22T00:15:50 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-      </class> <!-- Testcases.Loginpage -->
+        </test-method> <!-- StandardCheckingCreation -->
+      </class> <!-- Testcases.StandaradChecking -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
