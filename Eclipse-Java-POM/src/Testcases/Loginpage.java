@@ -1,5 +1,7 @@
 package Testcases;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.PageFactory;
@@ -16,6 +18,7 @@ public class Loginpage {
 				"E:\\Automation\\geckodriver-v0.26.0-win64\\geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();
 		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.get("http://dbankdemo.com/login");
 		PageFactory.initElements(driver, LoginObject.class);
 		LoginObject.UserName.sendKeys("mohammedirshadkhan@gmail.com");

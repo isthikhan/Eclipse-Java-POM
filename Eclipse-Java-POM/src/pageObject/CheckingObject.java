@@ -14,6 +14,9 @@ public class CheckingObject {
 	
 	@FindBy(xpath="//*[@id=\"main-menu\"]/ul/li[2]/ul/li[2]/a")
 	public static WebElement Newchecking;
+	
+	@FindBy(xpath="//*[text()='standardones']")
+	public static WebElement text;
 
 	
 

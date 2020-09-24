@@ -1,5 +1,7 @@
 package Testcases;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.PageFactory;
@@ -16,6 +18,7 @@ public class InterestChecking {
 
 		System.setProperty("webdriver.gecko.driver", "E:\\Automation\\geckodriver-v0.26.0-win64\\geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		driver.get("http://dbankdemo.com/login");
 
@@ -31,7 +34,7 @@ public class InterestChecking {
 		PageFactory.initElements(driver, NewCheckingObject.class);
 		NewCheckingObject.interestchecking.click();
 		NewCheckingObject.Individual.click();
-		NewCheckingObject.name.sendKeys("Interestone");
+		NewCheckingObject.name.sendKeys("Interestones");
 		NewCheckingObject.openingBalance.sendKeys("55");
 		NewCheckingObject.newchekingsubmit.submit();
 		driver.quit();

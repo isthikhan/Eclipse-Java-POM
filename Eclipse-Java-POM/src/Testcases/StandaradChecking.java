@@ -35,7 +35,7 @@ public class StandaradChecking {
 	PageFactory.initElements(driver, NewCheckingObject.class);
 	NewCheckingObject.standardchecking.click();
 	NewCheckingObject.Individual.click();
-	NewCheckingObject.name.sendKeys("standardone");
+	NewCheckingObject.name.sendKeys("standardones");
 	NewCheckingObject.openingBalance.sendKeys("55");
 	NewCheckingObject.newchekingsubmit.submit();
 	driver.quit();

@@ -1,22 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Loginsuite]">
-  <test thread-count="5" name="Creation of InterestChecking(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Testcases.InterestChecking">
+      <class name="Testcases.ViewChecking">
         <methods>
-          <include name="InterestCheckingCreation"/>
+          <include name="VieChecking"/>
         </methods>
-      </class> <!-- Testcases.InterestChecking -->
+      </class> <!-- Testcases.ViewChecking -->
     </classes>
-  </test> <!-- Creation of InterestChecking(failed) -->
-  <test thread-count="5" name="Creation of StandaradChecking(failed)">
-    <classes>
-      <class name="Testcases.StandaradChecking">
-        <methods>
-          <include name="StandardCheckingCreation"/>
-        </methods>
-      </class> <!-- Testcases.StandaradChecking -->
-    </classes>
-  </test> <!-- Creation of StandaradChecking(failed) -->
-</suite> <!-- Failed suite [Loginsuite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="34862" started-at="2020-09-22T00:15:15 IST" finished-at="2020-09-22T00:15:50 IST">
+  <suite name="Default suite" duration-ms="167890" started-at="2020-09-24T23:50:59 IST" finished-at="2020-09-24T23:53:47 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="34862" started-at="2020-09-22T00:15:15 IST" finished-at="2020-09-22T00:15:50 IST">
-      <class name="Testcases.StandaradChecking">
-        <test-method status="PASS" signature="StandardCheckingCreation()[pri:0, instance:Testcases.StandaradChecking@1d16f93d]" name="StandardCheckingCreation" duration-ms="34795" started-at="2020-09-22T00:15:16 IST" finished-at="2020-09-22T00:15:50 IST">
+    <test name="Default test" duration-ms="167890" started-at="2020-09-24T23:50:59 IST" finished-at="2020-09-24T23:53:47 IST">
+      <class name="Testcases.NewSavingsCreation">
+        <test-method status="PASS" signature="createsavingsacc()[pri:0, instance:Testcases.NewSavingsCreation@644ded04]" name="createsavingsacc" duration-ms="167758" started-at="2020-09-24T23:50:59 IST" finished-at="2020-09-24T23:53:47 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- StandardCheckingCreation -->
-      </class> <!-- Testcases.StandaradChecking -->
+        </test-method> <!-- createsavingsacc -->
+      </class> <!-- Testcases.NewSavingsCreation -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

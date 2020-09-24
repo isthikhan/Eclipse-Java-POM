@@ -7,13 +7,15 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 
-import pageObject.CheckingObject;
 import pageObject.LoginObject;
+import pageObject.SavingsObject;
 
-public class ViewChecking {
 
+public class SavingsPage {
 	@Test
-	public void VieChecking() {
+	
+	public void viewsavingspage()
+	{
 	System.setProperty("webdriver.gecko.driver", "E:\\Automation\\geckodriver-v0.26.0-win64\\geckodriver.exe");
 	WebDriver driver = new FirefoxDriver();
 	driver.manage().window().maximize();
@@ -24,11 +26,12 @@ public class ViewChecking {
 	LoginObject.UserName.sendKeys("mohammedirshadkhan@gmail.com");
 	LoginObject.Password.sendKeys("Test@123");
 	LoginObject.Submit.click();
-
-	PageFactory.initElements(driver, CheckingObject.class);
-	CheckingObject.checking.click();
-	CheckingObject.Viewchecking.click();
-	CheckingObject.text.isDisplayed();
+	
+	PageFactory.initElements(driver, SavingsObject.class);
+	SavingsObject.savings.click();
+	SavingsObject.viewsavings.click();
+	SavingsObject.savingstext.isDisplayed();
 	driver.quit();
 }
 }
+
